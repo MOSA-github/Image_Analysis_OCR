@@ -1,0 +1,175 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_textline_orientation": true
+    },
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": true
+        },
+        "angle": -1
+    },
+    "dt_polys": [
+        [
+            [
+                54,
+                2
+            ],
+            [
+                178,
+                2
+            ],
+            [
+                178,
+                91
+            ],
+            [
+                54,
+                91
+            ]
+        ],
+        [
+            [
+                75,
+                63
+            ],
+            [
+                172,
+                54
+            ],
+            [
+                180,
+                138
+            ],
+            [
+                83,
+                146
+            ]
+        ],
+        [
+            [
+                56,
+                115
+            ],
+            [
+                173,
+                110
+            ],
+            [
+                177,
+                198
+            ],
+            [
+                60,
+                203
+            ]
+        ]
+    ],
+    "text_det_params": {
+        "limit_side_len": 64,
+        "limit_type": "min",
+        "thresh": 0.1,
+        "max_side_limit": 4000,
+        "box_thresh": 0.2,
+        "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+        0,
+        0,
+        0
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+        "142",
+        "13",
+        "131"
+    ],
+    "rec_scores": [
+        0.9938192367553711,
+        0.9952460527420044,
+        0.8888599276542664
+    ],
+    "rec_polys": [
+        [
+            [
+                54,
+                2
+            ],
+            [
+                178,
+                2
+            ],
+            [
+                178,
+                91
+            ],
+            [
+                54,
+                91
+            ]
+        ],
+        [
+            [
+                75,
+                63
+            ],
+            [
+                172,
+                54
+            ],
+            [
+                180,
+                138
+            ],
+            [
+                83,
+                146
+            ]
+        ],
+        [
+            [
+                56,
+                115
+            ],
+            [
+                173,
+                110
+            ],
+            [
+                177,
+                198
+            ],
+            [
+                60,
+                203
+            ]
+        ]
+    ],
+    "rec_boxes": [
+        [
+            54,
+            2,
+            178,
+            91
+        ],
+        [
+            75,
+            54,
+            180,
+            146
+        ],
+        [
+            56,
+            110,
+            177,
+            203
+        ]
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_textline_orientation": true
+    },
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": true
+        },
+        "angle": -1
+    },
+    "dt_polys": [
+        [
+            [
+                46,
+                16
+            ],
+            [
+                176,
+                16
+            ],
+            [
+                176,
+                94
+            ],
+            [
+                46,
+                94
+            ]
+        ],
+        [
+            [
+                52,
+                62
+            ],
+            [
+                175,
+                57
+            ],
+            [
+                179,
+                153
+            ],
+            [
+                56,
+                158
+            ]
+        ],
+        [
+            [
+                50,
+                120
+            ],
+            [
+                170,
+                125
+            ],
+            [
+                166,
+                210
+            ],
+            [
+                46,
+                205
+            ]
+        ]
+    ],
+    "text_det_params": {
+        "limit_side_len": 64,
+        "limit_type": "min",
+        "thresh": 0.1,
+        "max_side_limit": 4000,
+        "box_thresh": 0.2,
+        "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+        0,
+        0,
+        0
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+        "141",
+        "21",
+        "120"
+    ],
+    "rec_scores": [
+        0.8835899829864502,
+        0.7993615865707397,
+        0.993480384349823
+    ],
+    "rec_polys": [
+        [
+            [
+                46,
+                16
+            ],
+            [
+                176,
+                16
+            ],
+            [
+                176,
+                94
+            ],
+            [
+                46,
+                94
+            ]
+        ],
+        [
+            [
+                52,
+                62
+            ],
+            [
+                175,
+                57
+            ],
+            [
+                179,
+                153
+            ],
+            [
+                56,
+                158
+            ]
+        ],
+        [
+            [
+                50,
+                120
+            ],
+            [
+                170,
+                125
+            ],
+            [
+                166,
+                210
+            ],
+            [
+                46,
+                205
+            ]
+        ]
+    ],
+    "rec_boxes": [
+        [
+            46,
+            16,
+            176,
+            94
+        ],
+        [
+            52,
+            57,
+            179,
+            158
+        ],
+        [
+            46,
+            120,
+            170,
+            210
+        ]
+    ]
+}
